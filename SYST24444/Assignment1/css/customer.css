@@ -1,0 +1,62 @@
+/* customers CSS*/
+.gridArea {
+	display: grid;
+	grid-template-columns: 35% 25% 40%;
+	grid-template-areas:
+	"header header header"
+	"customer buttongrid report"
+	"footer footer footer";
+	grid-gap: 5px;
+}
+.customer {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	grid-area: customer;
+	border: thick solid lightgray;
+	padding: 10px 10px 1px 10px;
+	background-color:lightskyblue;
+}
+.report {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;	
+	grid-area: report;
+	border: thick solid grey;
+	padding: 10px 10px 1px 10px;
+	background-color:gainsboro;
+}
+.buttongrid {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	grid-area: buttongrid; 
+	border: thick solid grey;
+	padding: 10px 10px 1px 10px;
+	background-color:lightslategrey;
+}
+.group {display: flex;}
+label{flex: 1;
+}
+input{flex: 1;}
+legend{
+	font-size:  14pt;	
+	flex: 1;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+input{f}
+body{
+	background-color: lightblue;
+}
+header{
+	font-size:  14pt;	
+	grid-area: header;
+	margin-top: 10px;
+	border: thick solid grey;
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+	background-color: lavenderblush;
+}
+footer{	
+	font-size:  14pt;	
+	grid-area: footer;
+	margin-top: 10px;
+	border: thick solid grey;
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+	background-color: lavenderblush;
+}

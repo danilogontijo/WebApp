@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--    
+Exercise #1 for SYST24444
+Author: Danilo Gontijo
+Date created: 17 May, 2018
+Date updated: 17 May, 2018
+Version: 0.1
+Copyright:
+	This work is  the intellectual property of  Sheridan College.
+	Any further copying and distribution outside of class must be within
+	
+Purpose:
+	Practice Web-base application design
+	
+Description:
+	Local storage and grid layout for mobile
+	Material provided by Sheridan College course
+-->
+<html>
+	
+<head>
+<title>Grid Layot and Local Storage </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/customer.css" rel="stylesheet">
+	<script src="js/customer.js"></script>
+</head>
+
+<body>
+	
+	<div class="gridArea">
+		
+		<header> Grid Layout and Local Storage </header>
+
+		<section class="customer">
+				<legend>Insert User Info</legend>
+				<p class="group"><label for="fname">First Name</label>
+				<input type="text" name="fname" id="fname" value="Danilo"></p>
+				<p class="group"><label for="lname">Last Name</label>
+				<input type="text" name="lname" id="lname" value="Gontijo"></p>	
+				<p class="group"><label for="email">Email</label>
+				<input type="email" name="email" id="email" value="gontijo@sheridanmail.ca"></p>
+		</section>
+
+		<section class="buttongrid">
+				<legend>Select Action</legend>
+				<p class="group"><button onclick="saveData()" id="saveData">Save</button></p>
+				<p class="group"><button onclick="deleteAll()">Clear All</button></p>
+				<p class="group"><button onclick="makeReport()">Submit Report</button></p>
+		</section>
+		
+		<section class="report">
+				<legend>Display Info</legend>
+				<p class="group"><label for="outfname">First Name</label>
+				<input type="text" name="outfname" id="outfname"></p>
+				<p class="group"><label for="outlname">Last Name</label>
+				<input type="text" name="outlname" id="outlname"></p>
+				<p class="group"><label for="outemail">Email</label>
+				<input type="email" name="outemail" id="outemail"></p>
+		</section>
+		<footer> <i>Danilo Gontijo ID 991492098 &copy; Sheridan College - Oakville Campus </i></footer>
+	</div>
+	
+</body>
+</html>
