@@ -3,9 +3,9 @@
 	display: grid;
 	grid-template-columns: 35% 25% 40%;
 	grid-template-areas:
-	"header header header"
-	"customer buttongrid report"
-	"footer footer footer";
+	/* "header header header"*/
+	"customer buttongrid report";
+	/* "footer footer footer";*/
 	grid-gap: 5px;
 }
 .customer {
