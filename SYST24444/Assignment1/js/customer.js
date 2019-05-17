@@ -25,6 +25,7 @@ function makeReport(){
 
     alert('Report Created Successfully!');
 }
-function deleteALL(){
+function clearData(){
     localStorage.clear();
+    alert('Data Created Successfully!');
 }
